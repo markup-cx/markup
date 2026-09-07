@@ -6,7 +6,7 @@
   and build-system identity advance to `0.1.1` for further development; the
   public library `api_version` remains unchanged.
 
-## Development checkpoint 0.1.0
+## v0.1.0
 
 - Added checksum-verifying curl install, download, update and uninstall scripts,
   cross-platform release archives, release rehearsals and public installer smoke

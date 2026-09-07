@@ -4,7 +4,9 @@
 
 - Repository: `markup-cx/markup`
 - Executable: `markup`
-- Current candidate: `0.1.0`
+- Latest public release: `v0.1.0` at released commit
+  `a8603fa1d0486871546eb9d69dc787a9554c9745`
+- Current development version: `0.1.1`
 - Tag format: `vX.Y.Z`
 - Public scripts: `https://markup.cx/{install.sh,download.sh,update.sh,uninstall.sh}`
 - Assets: Linux x86-64, macOS arm64, macOS x86-64 and Windows x86-64 archives plus `SHA256SUMS`.
