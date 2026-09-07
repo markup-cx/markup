@@ -133,7 +133,7 @@ int main(int argc, char** argv) {
     for (int i = 1; i < argc; ++i) {
         const std::string arg = argv[i];
         if (arg == "-h" || arg == "--help") { help(); return 0; }
-        if (arg == "-v" || arg == "--version") { std::cout << "Markup++ 0.1.0\n"; return 0; }
+        if (arg == "-v" || arg == "--version") { std::cout << "Markup++ 0.1.1\n"; return 0; }
         if (arg == "--standalone") { options.standalone = true; continue; }
         if (arg == "--safe") { options.allow_raw_html = false; continue; }
         if (arg == "--commonmark") {

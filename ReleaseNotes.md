@@ -1,5 +1,11 @@
 # Markup++ release notes
 
+## Development checkpoint 0.1.1
+
+- Post-release development version after the public **v0.1.0** release. The CLI
+  and build-system identity advance to `0.1.1` for further development; the
+  public library `api_version` remains unchanged.
+
 ## Development checkpoint 0.1.0
 
 - Added checksum-verifying curl install, download, update and uninstall scripts,
