@@ -22,21 +22,21 @@ license. There is no separately installed library or runtime dependency.
 Linux x86-64 and macOS arm64/x86-64:
 
 ```bash
-curl -fsSL https://nift-dev.github.io/markup-website/install | sh
+curl -fsSL https://markup.cx/install.sh | sh
 ```
 
-The installer verifies the archive against the release's `SHA256SUMS` and
+You can inspect the script before running it; the installer verifies the archive against the release's `SHA256SUMS` and
 installs `markup` to `~/.local/bin` without `sudo`. Set `MARKUP_INSTALL_DIR` to
 choose another directory or `MARKUP_VERSION=0.1.0` to pin a release.
 
 ```bash
-curl -fsSL https://nift-dev.github.io/markup-website/download | sh
-curl -fsSL https://nift-dev.github.io/markup-website/update | sh
-curl -fsSL https://nift-dev.github.io/markup-website/uninstall | sh
+curl -fsSL https://markup.cx/download.sh | sh
+curl -fsSL https://markup.cx/update.sh | sh
+curl -fsSL https://markup.cx/uninstall.sh | sh
 ```
 
 Windows x86-64 users can download and checksum-verify the `.zip` archive from
-[GitHub releases](https://github.com/nift-dev/markup/releases).
+[GitHub releases](https://github.com/markup-cx/markup/releases).
 
 ## Build from source
 

@@ -2,11 +2,11 @@
 
 ## Release identity
 
-- Repository: `nift-dev/markup`
+- Repository: `markup-cx/markup`
 - Executable: `markup`
 - Current candidate: `0.1.0`
 - Tag format: `vX.Y.Z`
-- Public scripts: `https://nift-dev.github.io/markup-website/{install,download,update,uninstall}`
+- Public scripts: `https://markup.cx/{install.sh,download.sh,update.sh,uninstall.sh}`
 - Assets: Linux x86-64, macOS arm64, macOS x86-64 and Windows x86-64 archives plus `SHA256SUMS`.
 
 A validated checkpoint is not a public release. Pushing the annotated release

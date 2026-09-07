@@ -16,7 +16,7 @@ MARKUP_VERSION="$version" MARKUP_RELEASE_BASE="file://$tmp/release" MARKUP_INSTA
 test "$("$tmp/bin/markup" --version)" = "Markup++ $version"; printf '# Hello\n' | "$tmp/bin/markup" --format md - | grep -q '<h1>Hello</h1>'
 MARKUP_VERSION="$version" MARKUP_RELEASE_BASE="file://$tmp/release" MARKUP_DOWNLOAD_DIR="$tmp/downloads" sh "$root/packaging/download.sh"
 test -f "$tmp/downloads/$archive"; test -f "$tmp/downloads/$archive.sha256"
-cp "$root/packaging/install.sh" "$tmp/website/install"
+cp "$root/packaging/install.sh" "$tmp/website/install.sh"
 MARKUP_VERSION="$version" MARKUP_RELEASE_BASE="file://$tmp/release" MARKUP_INSTALL_DIR="$tmp/bin" MARKUP_WEBSITE_BASE="file://$tmp/website" sh "$root/packaging/update.sh"
 test "$("$tmp/bin/markup" --version)" = "Markup++ $version"
 MARKUP_INSTALL_DIR="$tmp/bin" sh "$root/packaging/uninstall.sh"; test ! -e "$tmp/bin/markup"
